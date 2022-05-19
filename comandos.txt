@@ -1,0 +1,31 @@
+*Criar app react
+npx create-react-app nubank_avanade
+cd nubank_avanade/
+code .
+
+*Estruturar pastas do projeto
+nova pasta em src/layout
+nova pasta em src/components
+nova pasta em src/assets
+nova pasta em assets/images
+nova pasta em assets/fonts
+
+mover app.css, app.js e app.test.js para layout
+mover logo.svg para images
+
+Mudar em app.js o import do logo
+e no index o import do app.js
+
+*Instalar react router para rotas
+npm install react-router-dom
+
+Importar no index
+
+*Iniciar
+npm start
+
+
+
+
+
+
